@@ -1,0 +1,153 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px;
+}
+
+.logo_img {
+  width: 180px;
+  height: 40px;
+  margin-left: 2%;
+}
+
+.login {
+  margin-right: 2%;
+}
+
+header a {
+  color: blue;
+}
+
+header p {
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.account {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.account h2 {
+  font-size: 2rem;
+}
+
+.account_social_login {
+  display: flex;
+  gap: 24px;
+}
+
+.account_social_button {
+  width: 35%;
+  height: 36px;
+  background-color: rgb(81, 146, 244);
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+}
+
+.account_social_button2 {
+  width: 35%;
+  height: 36px;
+  background-color: rgb(19, 32, 208);
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+}
+
+.icon_button {
+  width: 15%;
+}
+
+.alternative_login {
+  color: gray;
+  margin-top: 0px;
+}
+
+.form_login {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+}
+
+.email_field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.email_field label {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.email_field input {
+  height: 32px;
+}
+
+.password_field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.password_field label {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.password_field input {
+  height: 32px;
+}
+
+.legal {
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+}
+
+.legal a {
+  color: blue;
+}
+
+.button_login {
+  height: 40px;
+  width: 200px;
+  border-radius: 50px;
+  color: gray;
+  border: 2px dashed lightgrey;
+}
+
+.footer_login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer_login ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+}

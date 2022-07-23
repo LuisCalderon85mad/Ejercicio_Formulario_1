@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario login</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <img src="./imagenes/Issuu_logo.svg.png" alt="Logo" class="logo_img">
+        <div class="login"">
+            <p>Already a user?</p>
+            <a href="">Sign in</a>
+        </div>
+    </header>
+
+    <section class="account">
+        <h2>Create an Issuu Account</h2>
+        <div  class="account_social_login">
+            <div class="account_social_button"><img src="/imagenes/Google_Icons-09-512.webp" class="icon_button" alt="Login with Google"><a> Sign in with Google</a></div>
+            <div class="account_social_button2"><img src="/imagenes/Facebook_Home_logo_old.svg.png" class="icon_button" alt="Login with Facebook"><a> Sign in with Facebook</a></div>
+        </div>
+
+        <p class="alternative_login">or use your email</p>
+
+        <form class="form_login">
+
+            <div class="email_field">
+                <label for="email">Email</label>
+                <input type="email" required placeholder="e.g. paco@email.com">
+            
+            </div>
+
+            <div class="password_field">
+                <label for="password">Password</label>
+                <input type="password" required minlength="10">
+            </div>
+
+            <div class="legal">
+                <input type="checkbox" required>
+                <label>I accept the <a>Terms of service</a>
+                and the <a>Professional Terms of Service</a>
+                </label>
+            </div>
+
+            <button class="button_login" type="submit" value="CREATE MY NEW ACCOUNT">CREATE ACCOUNT</button>
+
+        </form>
+
+    </section>
+
+    <footer>
+    <div class="footer_login">
+        <p>Issuu inc.</p>
+        <ul>
+            <li><a>Terms</a></li>
+            <li><a>Privacy</a></li>
+            <li><a>DMCA</a></li>
+        </ul>
+    </div>  
+    </footer>
+
+</body>
+</html>
